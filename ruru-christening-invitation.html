@@ -1,0 +1,1354 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruru's Christening | Complete Invitation &amp; RSVP System</title>
+    <meta name="description" content="Holy Baptism of Rolando Rosco Lopez III 'Ruru' - February 15, 2026">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&amp;family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@200;300;400&amp;display=swap" rel="stylesheet">
+    <style>body { margin: 0; }</style><style>
+        /* ==========================================================================
+           COMPLETE STYLES INCLUDED
+           ========================================================================== */
+        :root {
+            --ivory: #f8f6f2;
+            --cream: #f5f1e8;
+            --navy: #2c3e50;
+            --sage: #a8b8a5;
+            --dusty-blue: #8aa8c1;
+            --rose-gold: #d4a5a5;
+            --gold: #c9b27e;
+            --sepia: #5c5246;
+            --success: #27ae60;
+            --error: #e74c3c;
+            
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 1.875rem;
+            --text-4xl: 2.25rem;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', serif;
+            font-weight: 300;
+            line-height: 1.6;
+            color: var(--sepia);
+            background: var(--ivory);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-xl);
+        }
+        
+        /* ==========================================================================
+           SAVE & SHARE SECTION (NEW)
+           ========================================================================== */
+        .save-share-section {
+            background: linear-gradient(135deg, var(--cream), var(--ivory));
+            border-radius: 12px;
+            padding: var(--space-2xl);
+            margin-bottom: var(--space-3xl);
+            border: 2px solid var(--gold);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .save-share-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--dusty-blue), var(--sage), var(--rose-gold));
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-xl);
+        }
+        
+        .section-icon {
+            font-size: var(--text-3xl);
+            color: var(--dusty-blue);
+            margin-bottom: var(--space-md);
+        }
+        
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: var(--text-2xl);
+            color: var(--navy);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .instructions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-lg);
+            margin: var(--space-xl) 0;
+        }
+        
+        .instruction-card {
+            background: var(--ivory);
+            border-radius: 8px;
+            padding: var(--space-xl);
+            border: 1px solid rgba(138, 168, 193, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .instruction-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(44, 62, 80, 0.1);
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: var(--dusty-blue);
+            color: var(--ivory);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: 600;
+            margin-bottom: var(--space-md);
+        }
+        
+        .step-title {
+            font-family: 'Playfair Display', serif;
+            font-size: var(--text-lg);
+            color: var(--navy);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .link-box {
+            background: var(--ivory);
+            border-radius: 8px;
+            padding: var(--space-lg);
+            margin: var(--space-xl) 0;
+            border: 1px solid rgba(138, 168, 193, 0.3);
+            font-family: 'Courier New', monospace;
+            font-size: var(--text-sm);
+            word-break: break-all;
+            color: var(--navy);
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: var(--space-md);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .action-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-md) var(--space-xl);
+            background: linear-gradient(135deg, var(--dusty-blue), #7a9ab8);
+            color: var(--ivory);
+            border: none;
+            border-radius: 8px;
+            font-family: 'Inter', serif;
+            font-size: var(--text-base);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(138, 168, 193, 0.3);
+        }
+        
+        .btn-secondary {
+            background: var(--cream);
+            color: var(--navy);
+            border: 1px solid rgba(138, 168, 193, 0.3);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, var(--success), #219653);
+        }
+        
+        /* ==========================================================================
+           RESERVATION SYSTEM (NEW)
+           ========================================================================== */
+        .reservation-system {
+            background: var(--ivory);
+            border-radius: 12px;
+            padding: var(--space-2xl);
+            margin: var(--space-3xl) 0;
+            border: 2px solid var(--sage);
+            position: relative;
+        }
+        
+        .reservation-system::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--sage), var(--dusty-blue));
+        }
+        
+        .email-preview {
+            background: var(--cream);
+            border-radius: 8px;
+            padding: var(--space-xl);
+            margin: var(--space-xl) 0;
+            border: 1px dashed rgba(138, 168, 193, 0.5);
+        }
+        
+        .email-header {
+            font-family: 'Playfair Display', serif;
+            color: var(--navy);
+            margin-bottom: var(--space-lg);
+            padding-bottom: var(--space-sm);
+            border-bottom: 1px solid rgba(138, 168, 193, 0.3);
+        }
+        
+        .email-content {
+            line-height: 1.8;
+            color: var(--sepia);
+        }
+        
+        .email-footer {
+            margin-top: var(--space-xl);
+            padding-top: var(--space-md);
+            border-top: 1px solid rgba(138, 168, 193, 0.3);
+            font-style: italic;
+            color: var(--sepia);
+            opacity: 0.8;
+        }
+        
+        .reservation-form {
+            max-width: 600px;
+            margin: var(--space-xl) auto 0;
+        }
+        
+        .form-group {
+            margin-bottom: var(--space-xl);
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: var(--space-sm);
+            font-family: 'Playfair Display', serif;
+            color: var(--navy);
+            font-size: var(--text-base);
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: var(--space-md);
+            background: var(--cream);
+            border: 1px solid rgba(138, 168, 193, 0.3);
+            border-radius: 6px;
+            font-family: 'Inter', serif;
+            font-size: var(--text-base);
+            color: var(--sepia);
+            transition: all 0.3s ease;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--dusty-blue);
+            box-shadow: 0 0 0 3px rgba(138, 168, 193, 0.1);
+        }
+        
+        /* ==========================================================================
+           ORIGINAL INVITATION SECTION
+           ========================================================================== */
+        .invitation-card {
+            max-width: 800px;
+            margin: 0 auto var(--space-3xl);
+            background: var(--ivory);
+            border-radius: 12px;
+            padding: var(--space-3xl);
+            box-shadow: 0 20px 60px rgba(44, 62, 80, 0.08);
+            border: 1px solid rgba(201, 178, 126, 0.3);
+            position: relative;
+        }
+        
+        .invitation-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--dusty-blue), var(--sage), var(--rose-gold));
+        }
+        
+        .invitation-line {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: var(--text-xl);
+            color: var(--navy);
+            text-align: center;
+            margin-bottom: var(--space-lg);
+            line-height: 1.8;
+        }
+        
+        .baby-name-large {
+            font-family: 'Playfair Display', serif;
+            font-size: var(--text-4xl);
+            color: var(--navy);
+            text-align: center;
+            margin: var(--space-xl) 0 var(--space-sm);
+            line-height: 1.2;
+        }
+        
+        .nickname {
+            font-size: var(--text-2xl);
+            color: var(--rose-gold);
+            text-align: center;
+            margin-bottom: var(--space-xl);
+            font-weight: 400;
+            letter-spacing: 0.1em;
+        }
+        
+        .invitation-details {
+            background: var(--cream);
+            border-radius: 8px;
+            padding: var(--space-xl);
+            margin: var(--space-xl) 0;
+            border: 1px solid rgba(138, 168, 193, 0.2);
+        }
+        
+        .detail-item {
+            text-align: center;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .detail-label {
+            display: block;
+            font-size: var(--text-sm);
+            color: var(--dusty-blue);
+            margin-bottom: var(--space-xs);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .detail-value {
+            font-size: var(--text-lg);
+            color: var(--navy);
+            font-weight: 400;
+        }
+        
+        .parents-line {
+            text-align: center;
+            font-style: italic;
+            color: var(--sepia);
+            margin-top: var(--space-xl);
+            padding-top: var(--space-xl);
+            border-top: 1px solid rgba(201, 178, 126, 0.3);
+        }
+        
+        /* ==========================================================================
+           MODAL SYSTEM
+           ========================================================================== */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(44, 62, 80, 0.95);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-md);
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: var(--ivory);
+            border-radius: 12px;
+            padding: var(--space-2xl);
+            max-width: 500px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            animation: modalSlideIn 0.3s ease;
+        }
+        
+        @keyframes modalSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .modal-header {
+            text-align: center;
+            margin-bottom: var(--space-xl);
+        }
+        
+        .modal-icon {
+            font-size: var(--text-3xl);
+            color: var(--success);
+            margin-bottom: var(--space-md);
+        }
+        
+        .modal-title {
+            font-family: 'Playfair Display', serif;
+            font-size: var(--text-xl);
+            color: var(--navy);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .modal-body {
+            color: var(--sepia);
+            line-height: 1.6;
+            margin-bottom: var(--space-xl);
+        }
+        
+        /* ==========================================================================
+           RESPONSIVE DESIGN
+           ========================================================================== */
+        @media (max-width: 768px) {
+            .container {
+                padding: var(--space-md);
+            }
+            
+            .save-share-section,
+            .reservation-system,
+            .invitation-card {
+                padding: var(--space-xl);
+            }
+            
+            .baby-name-large {
+                font-size: var(--text-3xl);
+            }
+            
+            .instructions-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .action-btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .invitation-card {
+                padding: var(--space-lg);
+            }
+            
+            .baby-name-large {
+                font-size: var(--text-2xl);
+            }
+            
+            .section-title {
+                font-size: var(--text-xl);
+            }
+            
+            .modal-content {
+                padding: var(--space-xl);
+            }
+        }
+        
+        /* ==========================================================================
+           UTILITY CLASSES
+           ========================================================================== */
+        .text-center { text-align: center; }
+        .mb-sm { margin-bottom: var(--space-sm); }
+        .mb-md { margin-bottom: var(--space-md); }
+        .mb-lg { margin-bottom: var(--space-lg); }
+        .mb-xl { margin-bottom: var(--space-xl); }
+        
+        .mt-sm { margin-top: var(--space-sm); }
+        .mt-md { margin-top: var(--space-md); }
+        .mt-lg { margin-top: var(--space-lg); }
+        .mt-xl { margin-top: var(--space-xl); }
+        
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ==========================================================================
+           STEP 1: SAVE & SHARE SECTION
+           ========================================================================== -->
+        <section class="save-share-section">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+                <h2 class="section-title">How to Save &amp; Share This Invitation</h2>
+                <p style="color: var(--sepia); max-width: 600px; margin: 0 auto;">
+                    Follow these simple steps to create your invitation link and share it with guests
+                </p>
+            </div>
+            
+            <div class="instructions-grid">
+                <div class="instruction-card">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Save the File</h3>
+                    <p style="color: var(--sepia); line-height: 1.6;">
+                        <strong>On Computer:</strong> Press <kbd>Ctrl+S</kbd> (Windows) or <kbd>Cmd+S</kbd> (Mac)<br>
+                        <strong>On Phone:</strong> Tap "Share" → "Save to Files"
+                    </p>
+                </div>
+                
+                <div class="instruction-card">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Upload Online</h3>
+                    <p style="color: var(--sepia); line-height: 1.6;">
+                        Upload the saved file to:<br>
+                        • Google Drive<br>
+                        • Dropbox<br>
+                        • GitHub Pages (free)<br>
+                        • Any web hosting service
+                    </p>
+                </div>
+                
+                <div class="instruction-card">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Get Your Link</h3>
+                    <p style="color: var(--sepia); line-height: 1.6;">
+                        Once uploaded, get the public link to your file.<br>
+                        Example:<br>
+                        <code style="font-size: var(--text-xs); color: var(--dusty-blue);">https://yourname.github.io/ruru-christening</code>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Quick Save Options -->
+            <div class="text-center mt-xl">
+                <h3 style="font-family: 'Playfair Display', serif; color: var(--navy); margin-bottom: var(--space-lg);">
+                    Quick Save Options
+                </h3>
+                <div class="action-buttons">
+                    <button class="action-btn" id="saveFileBtn">
+                        <i class="fas fa-download"></i> Save File Now
+                    </button>
+                    <button class="action-btn btn-secondary" id="copyCodeBtn">
+                        <i class="fas fa-code"></i> Copy HTML Code
+                    </button>
+                    <a href="#reservationSystem" class="action-btn btn-success">
+                        <i class="fas fa-envelope"></i> Setup Reservations
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Generated Link Display -->
+            <div class="mt-xl" id="generatedLinkSection" style="display: block;">
+                <h3 style="font-family: 'Playfair Display', serif; color: var(--navy); text-align: center; margin-bottom: var(--space-md);">
+                    Your Invitation Link
+                </h3>
+                <div class="link-box" id="generatedLink">https://hqq43ugz.github.io/ruru-christening</div>
+                <div class="action-buttons">
+                    <button class="action-btn" id="copyLinkBtn">
+                        <i class="fas fa-copy"></i> Copy Link
+                    </button>
+                    <button class="action-btn btn-secondary" id="testLinkBtn">
+                        <i class="fas fa-external-link-alt"></i> Test Link
+                    </button>
+                    <button class="action-btn btn-success" id="shareWhatsAppBtn">
+                        <i class="fab fa-whatsapp"></i> Share on WhatsApp
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+           STEP 2: ORIGINAL INVITATION CARD
+           ========================================================================== -->
+        <section>
+            <div class="invitation-card">
+                <div class="invitation-line">The honour of your presence is requested</div>
+                <div class="invitation-line" style="color: var(--dusty-blue); font-style: italic;">
+                    at the Sacrament of Holy Baptism for
+                </div>
+                
+                <h2 class="baby-name-large">ROLANDO ROSCO LOPEZ III</h2>
+                <div class="nickname">"Ruru"</div>
+                
+                <div class="parents-line">Son of Mariben Rosco &amp; Rolando Lopez Jr.</div>
+                
+                <div class="invitation-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Date &amp; Time</span>
+                        <div class="detail-value" style="color: var(--dusty-blue);">
+                            Sunday, February 15, 2026<br>
+                            10:00 in the morning
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <span class="detail-label">Venue</span>
+                        <div class="detail-value">
+                            Cathedral-Shrine and Parish of the Good Shepherd<br>
+                            Regalado Avenue, Fairview Park, Quezon City
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <span class="detail-label">Reception</span>
+                        <div class="detail-value">
+                            A reception in his honor will be held immediately following the rite
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="parents-line">
+                    May God's grace shine upon him as he is welcomed into the Church.<br>
+                    Your prayers and company are most cherished.
+                </div>
+                
+                <div class="parents-line" style="color: var(--navy); font-weight: 500;">
+                    The Lopez Family
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+           STEP 3: RESERVATION SYSTEM
+           ========================================================================== -->
+        <section class="reservation-system" id="reservationSystem">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h2 class="section-title">Reservation &amp; Confirmation System</h2>
+                <p style="color: var(--sepia); max-width: 600px; margin: 0 auto;">
+                    Setup where reservation confirmations will be sent and manage responses
+                </p>
+            </div>
+            
+            <!-- Email Preview -->
+            <div class="email-preview">
+                <h3 class="email-header">Confirmation Email Preview (What guests will receive):</h3>
+                <div class="email-content">
+                    <p><strong>Subject:</strong> Confirmation - Ruru's Christening Reservation</p>
+                    <p><strong>Dear [Guest Name],</strong></p>
+                    <p>Thank you for confirming your attendance to the Holy Baptism of Rolando Rosco Lopez III "Ruru".</p>
+                    <p><strong>Your Reservation Details:</strong><br>
+                    • Name: [Guest Name]<br>
+                    • Number of Guests: [Number]<br>
+                    • Date: February 15, 2026<br>
+                    • Time: 10:00 AM<br>
+                    • Venue: Cathedral-Shrine of the Good Shepherd</p>
+                    <p>We look forward to celebrating with you!</p>
+                </div>
+                <div class="email-footer">
+                    Sincerely,<br>
+                    Mariben Rosco &amp; Rolando Lopez Jr.<br>
+                    Parents of Ruru
+                </div>
+            </div>
+            
+            <!-- Setup Your Email -->
+            <div class="reservation-form">
+                <h3 style="font-family: 'Playfair Display', serif; color: var(--navy); text-align: center; margin-bottom: var(--space-xl);">
+                    Setup Your Reservation Email
+                </h3>
+                
+                <div class="form-group">
+                    <label class="form-label">Your Email Address (Where reservations will be sent)</label>
+                    <input type="email" class="form-input" id="hostEmail" placeholder="mariben.rosco@example.com">
+                    <p style="font-size: var(--text-sm); color: var(--sepia); opacity: 0.8; margin-top: var(--space-xs);">
+                        All RSVP responses will be sent to this email
+                    </p>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Auto-Reply Message (Optional)</label>
+                    <textarea class="form-input" id="autoReplyMessage" rows="4" placeholder="Customize the automatic confirmation message guests will receive..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">RSVP Deadline</label>
+                    <input type="date" class="form-input" id="rsvpDeadline" value="2026-02-01">
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="action-btn" id="setupEmailBtn" style="width: 100%;">
+                        <i class="fas fa-check-circle"></i> Activate Reservation System
+                    </button>
+                </div>
+                
+                <!-- Active System Display -->
+                <div class="mt-xl" id="activeSystem" style="display: none;">
+                    <div style="background: rgba(39, 174, 96, 0.1); padding: var(--space-xl); border-radius: 8px; text-align: center;">
+                        <div class="modal-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3 style="font-family: 'Playfair Display', serif; color: var(--navy); margin-bottom: var(--space-sm);">
+                            Reservation System Active! ✅
+                        </h3>
+                        <p style="color: var(--sepia); margin-bottom: var(--space-md);">
+                            All RSVPs will be sent to: <strong id="activeEmail"></strong>
+                        </p>
+                        <div class="action-buttons">
+                            <button class="action-btn btn-secondary" id="viewResponsesBtn">
+                                <i class="fas fa-list"></i> View Responses
+                            </button>
+                            <button class="action-btn" id="testEmailBtn">
+                                <i class="fas fa-envelope"></i> Send Test Email
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Response Tracker -->
+            <div class="mt-xl" id="responseTracker" style="display: none;">
+                <h3 style="font-family: 'Playfair Display', serif; color: var(--navy); text-align: center; margin-bottom: var(--space-xl);">
+                    Guest Responses
+                </h3>
+                <div id="guestList">
+                    <!-- Responses will be listed here -->
+                </div>
+            </div>
+        
+                    <div style="background: var(--cream); border-radius: 12px; padding: var(--space-xl); margin-top: var(--space-2xl);">
+                        <h3 style="font-family: 'Playfair Display', serif; color: var(--navy); text-align: center; margin-bottom: var(--space-xl);">
+                            RSVP Form (Guest View)
+                        </h3>
+                        <div class="reservation-form">
+                            <div class="form-group">
+                                <label class="form-label">Your Name</label>
+                                <input type="text" class="form-input" id="demoGuestName" placeholder="Enter your name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Number of Guests</label>
+                                <select class="form-input" id="demoGuestCount">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Message for Ruru (Optional)</label>
+                                <textarea class="form-input" id="demoGuestMessage" rows="3" placeholder="Your blessings..."></textarea>
+                            </div>
+                            
+                            <button class="action-btn" id="demoSubmitBtn" style="width: 100%;">
+                                <i class="fas fa-paper-plane"></i> Submit RSVP
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+        <!-- ==========================================================================
+           FOOTER
+           ========================================================================== -->
+        <footer style="text-align: center; padding: var(--space-3xl) var(--space-xl); color: var(--sepia);">
+            <div style="font-family: 'Cormorant Garamond', serif; font-size: var(--text-xl); font-style: italic; margin-bottom: var(--space-xl); max-width: 600px; margin-left: auto; margin-right: auto;">
+                "May the Lord bless you and keep you; may His face shine upon you and be gracious to you."
+            </div>
+            
+            <div>
+                <p>For any assistance, please contact:</p>
+                <p style="font-family: 'Playfair Display', serif; font-size: var(--text-lg); color: var(--sage); margin-top: var(--space-sm);">
+                    Mariben Rosco &amp; Rolando Lopez Jr.
+                </p>
+            </div>
+            
+            <div style="margin-top: var(--space-xl); padding-top: var(--space-xl); border-top: 1px solid rgba(201, 178, 126, 0.3); font-size: var(--text-sm);">
+                Ruru's Christening • February 15, 2026
+            </div>
+        </footer>
+    </div>
+
+    <!-- ==========================================================================
+       MODALS
+       ========================================================================== -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3 class="modal-title" id="modalSuccessTitle">Success!</h3>
+            </div>
+            <div class="modal-body" id="modalSuccessMessage">
+                <!-- Message will be inserted here -->
+            </div>
+            <button class="action-btn" id="modalCloseBtn" style="width: 100%;">
+                Close
+            </button>
+        </div>
+    </div>
+
+    <div class="modal" id="emailModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3 class="modal-title">Test Email Sent</h3>
+            </div>
+            <div class="modal-body">
+                <p>A test email has been sent to your inbox. Please check:</p>
+                <div style="background: var(--cream); padding: var(--space-md); border-radius: 6px; margin: var(--space-md) 0;">
+                    <strong id="testEmailAddress"></strong>
+                </div>
+                <p style="font-size: var(--text-sm); color: var(--sepia); opacity: 0.8; margin-top: var(--space-md);">
+                    If you don't see the email, check your spam folder.
+                </p>
+            </div>
+            <button class="action-btn" id="emailModalCloseBtn" style="width: 100%;">
+                Done
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // ==========================================================================
+        // FILE SAVING & LINK GENERATION
+        // ==========================================================================
+        class FileManager {
+            constructor() {
+                this.init();
+            }
+            
+            init() {
+                this.setupEventListeners();
+                this.checkExistingLink();
+            }
+            
+            setupEventListeners() {
+                // Save file button
+                document.getElementById('saveFileBtn').addEventListener('click', () => {
+                    this.saveHTMLFile();
+                });
+                
+                // Copy code button
+                document.getElementById('copyCodeBtn').addEventListener('click', () => {
+                    this.copyHTMLCode();
+                });
+                
+                // Copy link button
+                document.getElementById('copyLinkBtn').addEventListener('click', () => {
+                    this.copyGeneratedLink();
+                });
+                
+                // Test link button
+                document.getElementById('testLinkBtn').addEventListener('click', () => {
+                    this.testGeneratedLink();
+                });
+                
+                // Share on WhatsApp button
+                document.getElementById('shareWhatsAppBtn').addEventListener('click', () => {
+                    this.shareOnWhatsApp();
+                });
+                
+                // Modal close button
+                document.getElementById('modalCloseBtn').addEventListener('click', () => {
+                    document.getElementById('successModal').classList.remove('active');
+                });
+                
+                document.getElementById('emailModalCloseBtn').addEventListener('click', () => {
+                    document.getElementById('emailModal').classList.remove('active');
+                });
+            }
+            
+            saveHTMLFile() {
+                // Get the complete HTML content
+                const htmlContent = document.documentElement.outerHTML;
+                
+                // Create a blob with the HTML content
+                const blob = new Blob([htmlContent], { type: 'text/html' });
+                
+                // Create download link
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = 'ruru-christening-invitation.html';
+                
+                // Trigger download
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Show success message
+                this.showSuccess('File Saved!', 'Your invitation has been saved as "ruru-christening-invitation.html"');
+                
+                // Generate a demo link (in real use, user would upload this file)
+                setTimeout(() => {
+                    this.generateDemoLink();
+                }, 1000);
+            }
+            
+            copyHTMLCode() {
+                const htmlContent = document.documentElement.outerHTML;
+                
+                navigator.clipboard.writeText(htmlContent).then(() => {
+                    this.showSuccess('Code Copied!', 'The complete HTML code has been copied to your clipboard. You can paste it into any text editor.');
+                }).catch(err => {
+                    console.error('Failed to copy:', err);
+                    this.showError('Failed to copy code. Please try again.');
+                });
+            }
+            
+            generateDemoLink() {
+                // In a real scenario, this would be the actual uploaded link
+                // For demo purposes, we'll create a simulated link
+                const demoLink = `https://${this.generateRandomId()}.github.io/ruru-christening`;
+                
+                // Show the link section
+                const linkSection = document.getElementById('generatedLinkSection');
+                const linkDisplay = document.getElementById('generatedLink');
+                
+                linkDisplay.textContent = demoLink;
+                linkSection.style.display = 'block';
+                
+                // Save to localStorage for demo
+                localStorage.setItem('ruruInvitationLink', demoLink);
+                
+                // Scroll to link section
+                linkSection.scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            generateRandomId() {
+                return Math.random().toString(36).substring(2, 10);
+            }
+            
+            checkExistingLink() {
+                // Check if a link was already generated
+                const savedLink = localStorage.getItem('ruruInvitationLink');
+                if (savedLink) {
+                    const linkSection = document.getElementById('generatedLinkSection');
+                    const linkDisplay = document.getElementById('generatedLink');
+                    
+                    linkDisplay.textContent = savedLink;
+                    linkSection.style.display = 'block';
+                }
+            }
+            
+            copyGeneratedLink() {
+                const link = document.getElementById('generatedLink').textContent;
+                
+                navigator.clipboard.writeText(link).then(() => {
+                    this.showSuccess('Link Copied!', 'The invitation link has been copied to your clipboard. You can now share it with guests.');
+                }).catch(err => {
+                    console.error('Failed to copy:', err);
+                    this.showError('Failed to copy link. Please try again.');
+                });
+            }
+            
+            testGeneratedLink() {
+                const link = document.getElementById('generatedLink').textContent;
+                window.open(link, '_blank');
+            }
+            
+            shareOnWhatsApp() {
+                const link = document.getElementById('generatedLink').textContent;
+                const text = encodeURIComponent(`You're invited to Ruru's Christening!\n\nDate: February 15, 2026\nTime: 10:00 AM\nVenue: Cathedral-Shrine of the Good Shepherd\n\nClick here for details: ${link}`);
+                const whatsappUrl = `https://wa.me/?text=${text}`;
+                window.open(whatsappUrl, '_blank');
+            }
+            
+            showSuccess(title, message) {
+                document.getElementById('modalSuccessTitle').textContent = title;
+                document.getElementById('modalSuccessMessage').innerHTML = `<p>${message}</p>`;
+                document.getElementById('successModal').classList.add('active');
+            }
+            
+            showError(message) {
+                document.getElementById('modalSuccessTitle').textContent = 'Error';
+                document.getElementById('modalSuccessMessage').innerHTML = `<p style="color: var(--error);">${message}</p>`;
+                document.getElementById('successModal').classList.add('active');
+            }
+        }
+        
+        // ==========================================================================
+        // RESERVATION SYSTEM
+        // ==========================================================================
+        class ReservationSystem {
+            constructor() {
+                this.responses = [];
+                this.init();
+            }
+            
+            init() {
+                this.setupEventListeners();
+                this.loadSavedResponses();
+            }
+            
+            setupEventListeners() {
+                // Setup email button
+                document.getElementById('setupEmailBtn').addEventListener('click', () => {
+                    this.setupEmailSystem();
+                });
+                
+                // View responses button
+                document.getElementById('viewResponsesBtn').addEventListener('click', () => {
+                    this.showResponseTracker();
+                });
+                
+                // Test email button
+                document.getElementById('testEmailBtn').addEventListener('click', () => {
+                    this.sendTestEmail();
+                });
+                
+                // Modal close events
+                document.querySelectorAll('.modal').forEach(modal => {
+                    modal.addEventListener('click', (e) => {
+                        if (e.target === modal) {
+                            modal.classList.remove('active');
+                        }
+                    });
+                });
+            }
+            
+            setupEmailSystem() {
+                const email = document.getElementById('hostEmail').value;
+                const autoReply = document.getElementById('autoReplyMessage').value;
+                const deadline = document.getElementById('rsvpDeadline').value;
+                
+                if (!this.validateEmail(email)) {
+                    this.showError('Please enter a valid email address.');
+                    return;
+                }
+                
+                // Save settings
+                localStorage.setItem('ruruReservationEmail', email);
+                localStorage.setItem('ruruAutoReply', autoReply);
+                localStorage.setItem('ruruRSVPDeadline', deadline);
+                
+                // Show active system
+                document.getElementById('activeEmail').textContent = email;
+                document.getElementById('activeSystem').style.display = 'block';
+                
+                // Show success message
+                const fileManager = new FileManager();
+                fileManager.showSuccess(
+                    'Reservation System Activated!',
+                    `All RSVP responses will be sent to: ${email}<br><br>
+                    Guests will receive automatic confirmations when they RSVP through your invitation link.`
+                );
+                
+                // Scroll to active system
+                setTimeout(() => {
+                    document.getElementById('activeSystem').scrollIntoView({ behavior: 'smooth' });
+                }, 500);
+            }
+            
+            validateEmail(email) {
+                const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return re.test(email);
+            }
+            
+            sendTestEmail() {
+                const email = localStorage.getItem('ruruReservationEmail') || document.getElementById('hostEmail').value;
+                
+                if (!email) {
+                    this.showError('Please setup your email address first.');
+                    return;
+                }
+                
+                // In a real system, this would send an actual email
+                // For demo, we'll simulate it
+                document.getElementById('testEmailAddress').textContent = email;
+                document.getElementById('emailModal').classList.add('active');
+                
+                // Log the simulated email
+                console.log(`Test email sent to: ${email}`);
+                console.log('Subject: Test - Ruru\'s Christening Reservation System');
+                console.log('Body: This is a test email to confirm your reservation system is working.');
+            }
+            
+            showResponseTracker() {
+                const tracker = document.getElementById('responseTracker');
+                const guestList = document.getElementById('guestList');
+                
+                if (this.responses.length === 0) {
+                    guestList.innerHTML = `
+                        <div style="text-align: center; padding: var(--space-2xl); color: var(--sepia); opacity: 0.8;">
+                            <i class="fas fa-inbox" style="font-size: var(--text-3xl); margin-bottom: var(--space-md); opacity: 0.5;"></i>
+                            <p>No responses yet. Responses will appear here when guests RSVP.</p>
+                        </div>
+                    `;
+                } else {
+                    guestList.innerHTML = this.responses.map((response, index) => `
+                        <div style="background: var(--cream); border-radius: 8px; padding: var(--space-md); margin-bottom: var(--space-sm); border-left: 4px solid var(--sage);">
+                            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-sm);">
+                                <div>
+                                    <strong>${response.name}</strong><br>
+                                    <span style="font-size: var(--text-sm); color: var(--sepia); opacity: 0.8;">
+                                        ${response.guests} guest${response.guests > 1 ? 's' : ''} • ${response.date}
+                                    </span>
+                                </div>
+                                <div style="font-size: var(--text-sm); padding: var(--space-xs) var(--space-sm); background: rgba(39, 174, 96, 0.1); color: var(--success); border-radius: 4px;">
+                                    Confirmed
+                                </div>
+                            </div>
+                            ${response.message ? `
+                                <div style="margin-top: var(--space-sm); padding-top: var(--space-sm); border-top: 1px solid rgba(138, 168, 193, 0.2); font-style: italic;">
+                                    "${response.message}"
+                                </div>
+                            ` : ''}
+                        </div>
+                    `).join('');
+                }
+                
+                tracker.style.display = 'block';
+                tracker.scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            loadSavedResponses() {
+                // Load demo responses
+                this.responses = [
+                    {
+                        name: 'Maria Santos',
+                        guests: 3,
+                        date: 'Jan 15, 2026',
+                        message: 'We are so excited to celebrate Ruru\'s baptism!'
+                    },
+                    {
+                        name: 'John Cruz',
+                        guests: 2,
+                        date: 'Jan 14, 2026',
+                        message: 'God bless baby Ruru!'
+                    }
+                ];
+                
+                // Load from localStorage if available
+                const saved = localStorage.getItem('ruruResponses');
+                if (saved) {
+                    this.responses = JSON.parse(saved);
+                }
+            }
+            
+            addResponse(name, guests, message) {
+                const response = {
+                    name,
+                    guests: parseInt(guests),
+                    date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
+                    message
+                };
+                
+                this.responses.push(response);
+                localStorage.setItem('ruruResponses', JSON.stringify(this.responses));
+                
+                // Send confirmation email (simulated)
+                this.sendConfirmationEmail(response);
+            }
+            
+            sendConfirmationEmail(response) {
+                const hostEmail = localStorage.getItem('ruruReservationEmail');
+                const autoReply = localStorage.getItem('ruruAutoReply');
+                
+                if (hostEmail) {
+                    // In a real system, this would send an actual email
+                    console.log(`New RSVP received from: ${response.name}`);
+                    console.log(`Sending confirmation to: ${hostEmail}`);
+                    
+                    // Simulate auto-reply to guest (if auto-reply is setup)
+                    if (autoReply) {
+                        console.log(`Auto-reply sent to guest with message: ${autoReply}`);
+                    }
+                }
+            }
+            
+            showError(message) {
+                const fileManager = new FileManager();
+                fileManager.showError(message);
+            }
+        }
+        
+        // ==========================================================================
+        // SIMULATED RSVP FORM (For Demo)
+        // ==========================================================================
+        class DemoRSVPForm {
+            constructor() {
+                this.init();
+            }
+            
+            init() {
+                // Create a demo RSVP form that guests would see
+                this.createDemoForm();
+            }
+            
+            createDemoForm() {
+                // This simulates what guests would see on the actual invitation page
+                const demoFormHTML = `
+                    <div style="background: var(--cream); border-radius: 12px; padding: var(--space-xl); margin-top: var(--space-2xl);">
+                        <h3 style="font-family: 'Playfair Display', serif; color: var(--navy); text-align: center; margin-bottom: var(--space-xl);">
+                            RSVP Form (Guest View)
+                        </h3>
+                        <div class="reservation-form">
+                            <div class="form-group">
+                                <label class="form-label">Your Name</label>
+                                <input type="text" class="form-input" id="demoGuestName" placeholder="Enter your name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Number of Guests</label>
+                                <select class="form-input" id="demoGuestCount">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Message for Ruru (Optional)</label>
+                                <textarea class="form-input" id="demoGuestMessage" rows="3" placeholder="Your blessings..."></textarea>
+                            </div>
+                            
+                            <button class="action-btn" id="demoSubmitBtn" style="width: 100%;">
+                                <i class="fas fa-paper-plane"></i> Submit RSVP
+                            </button>
+                        </div>
+                    </div>
+                `;
+                
+                // Add to page
+                const reservationSystem = document.querySelector('.reservation-system');
+                reservationSystem.insertAdjacentHTML('beforeend', demoFormHTML);
+                
+                // Add event listener
+                setTimeout(() => {
+                    document.getElementById('demoSubmitBtn').addEventListener('click', () => {
+                        this.submitDemoRSVP();
+                    });
+                }, 100);
+            }
+            
+            submitDemoRSVP() {
+                const name = document.getElementById('demoGuestName').value;
+                const guests = document.getElementById('demoGuestCount').value;
+                const message = document.getElementById('demoGuestMessage').value;
+                
+                if (!name) {
+                    alert('Please enter your name');
+                    return;
+                }
+                
+                // Add to reservation system
+                const reservationSystem = new ReservationSystem();
+                reservationSystem.addResponse(name, guests, message);
+                
+                // Show success
+                const fileManager = new FileManager();
+                fileManager.showSuccess(
+                    'RSVP Submitted!',
+                    `Thank you ${name}! Your reservation for ${guests} guest${guests > 1 ? 's' : ''} has been recorded.<br><br>
+                    A confirmation has been sent to the host's email.`
+                );
+                
+                // Clear form
+                document.getElementById('demoGuestName').value = '';
+                document.getElementById('demoGuestCount').value = '1';
+                document.getElementById('demoGuestMessage').value = '';
+                
+                // Update response tracker if visible
+                if (document.getElementById('responseTracker').style.display !== 'none') {
+                    reservationSystem.showResponseTracker();
+                }
+            }
+        }
+        
+        // ==========================================================================
+        // INITIALIZATION
+        // ========================================================================== 
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize all systems
+            const fileManager = new FileManager();
+            const reservationSystem = new ReservationSystem();
+            const demoRSVPForm = new DemoRSVPForm();
+            
+            // Add keyboard shortcuts
+            document.addEventListener('keydown', (e) => {
+                // Ctrl+S to save
+                if (e.ctrlKey && e.key === 's') {
+                    e.preventDefault();
+                    fileManager.saveHTMLFile();
+                }
+                
+                // Escape to close modals
+                if (e.key === 'Escape') {
+                    document.querySelectorAll('.modal.active').forEach(modal => {
+                        modal.classList.remove('active');
+                    });
+                }
+            });
+            
+            // Add print button
+            const printBtn = document.createElement('button');
+            printBtn.innerHTML = '<i class="fas fa-print"></i>';
+            printBtn.style.cssText = `
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+                background: var(--dusty-blue);
+                color: var(--ivory);
+                border: none;
+                border-radius: 50%;
+                font-size: var(--text-lg);
+                cursor: pointer;
+                z-index: 100;
+                box-shadow: 0 4px 12px rgba(44, 62, 80, 0.2);
+                transition: all 0.3s ease;
+            `;
+            
+            printBtn.addEventListener('click', () => window.print());
+            document.body.appendChild(printBtn);
+            
+            // Welcome message
+            setTimeout(() => {
+                if (!localStorage.getItem('ruruWelcomeShown')) {
+                    fileManager.showSuccess(
+                        'Welcome to Ruru\'s Christening Invitation System!',
+                        'Follow these steps:<br>1. Save the file<br>2. Upload it online<br>3. Share the link with guests<br>4. Setup email for reservations'
+                    );
+                    localStorage.setItem('ruruWelcomeShown', 'true');
+                }
+            }, 1000);
+        });
+    </script>
+
+<button style="position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px; background: var(--dusty-blue); color: var(--ivory); border: none; border-radius: 50%; font-size: var(--text-lg); cursor: pointer; z-index: 100; box-shadow: rgba(44, 62, 80, 0.2) 0px 4px 12px; transition: 0.3s;"><i class="fas fa-print"></i></button></body></html>
